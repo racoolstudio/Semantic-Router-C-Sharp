@@ -29,7 +29,7 @@ git clone https://github.com/yourusername/Semantic-Router-C-Sharp.git
 ```bash
 dotnet build
 ```
-3 Add the project to your solution or reference the compiled DLL.
+3. Add the project to your solution or reference the compiled DLL.
 
 ## Quickstart
 
