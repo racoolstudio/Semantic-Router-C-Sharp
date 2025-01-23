@@ -24,7 +24,7 @@ The Semantic Router makes routing decisions based on the **semantic content** of
 ```bash
 git clone https://github.com/yourusername/Semantic-Router-C-Sharp.git
 ```
-2 Build the project:
+2. Build the project:
 
 ```bash
 dotnet build
