@@ -93,9 +93,9 @@ Run the application using the following command:
 
 ``bash
 dotnet run
-
 ```
 **Expected Output:**
+
 ```bash
 chitchat
 politics
