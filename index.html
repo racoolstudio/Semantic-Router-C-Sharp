@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic-Router-C-Sharp</title>
+</head>
+<body>
+    <h1>Semantic-Router-C-Sharp</h1>
+
+    <p><strong>Semantic-Router-C-Sharp</strong> is a superfast decision-making layer for your LLMs (Large Language Models) and agents in C#. Instead of relying on slow LLM generations to make tool-use decisions, this router uses the power of <strong>semantic vector space</strong> to make fast decisions by routing requests based on semantic meaning.</p>
+
+    <p>This C# version replicates the core features of the original Python Semantic Router, offering the same functionality with C#-specific optimizations.</p>
+
+    <h2>Overview</h2>
+    <p>The Semantic Router makes routing decisions based on the <strong>semantic content</strong> of a query, improving efficiency in applications that rely on NLP. It can be used to route requests to different actions or tools depending on the meaning of the user's input, without the need for slow or manual decision-making.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Routes decisions based on the <strong>semantic meaning</strong> of user input.</li>
+        <li>Superfast decision-making for applications involving LLMs and agents.</li>
+        <li>C#-optimized implementation for routing natural language queries.</li>
+        <li>Easily integrates with existing C# systems.</li>
+    </ul>
+
+    <h2>Repo:</h2>
+    <p>Here is the <a href="https://github.com/racoolstudio/Semantic-Router-C-Sharp">repo</a></p>
+
+    <h2>Installation</h2>
+
+    <h3>Manual Installation</h3>
+
+    <ol>
+        <li>Clone the repository:</li>
+        <pre><code>git clone https://github.com/yourusername/Semantic-Router-C-Sharp.git</code></pre>
+        <li>Build the project:</li>
+        <pre><code>dotnet build</code></pre>
+        <li>Add the project to your solution or reference the compiled DLL.</li>
+    </ol>
+
+    <h2>Quickstart</h2>
+
+    <h3>To get started with the Semantic Router in C#, follow these simple steps.</h3>
+
+    <h4>1. Define Your Routes:</h4>
+    <p>Define a set of <strong>Route objects</strong>. These represent the decision paths the router will use. In this example, we define two routes: one for political discussions and one for casual chitchat.</p>
+
+    <pre><code>
+using SemanticRouter.Models;
+using SmartComponents.Inference;
+
+Route chitchat = new Route(
+    name: "chitchat",
+    utterances: new string[] {
+        "how's the weather today?",
+        "how are things going?",
+        "lovely weather today",
+        "the weather is horrendous",
+        "let's go to the chippy"
+    }
+);
+
+Route politics = new Route(
+    name: "politics",
+    utterances: new string[] {
+        "isn't politics the best thing ever?",
+        "why don't you tell me about your political opinions?",
+        "don't you just love the president?",
+        "they're going to destroy this country!",
+        "they will save the country!"
+    }
+);
+
+Route[] routes = new Route[] { chitchat, politics };
+    </code></pre>
+
+    <h4>2. Initialize the Route Layer:</h4>
+    <p>The <strong>RouteLayer</strong> handles the decision-making process, routing the input based on its semantic content. You’ll need to instantiate a RouteLayer object and pass in your predefined routes.</p>
+
+    <pre><code>RouteLayer routeLayer = new RouteLayer();</code></pre>
+
+    <h4>3. Make Semantic Decisions:</h4>
+    <p>Now, you can pass user input to the <strong>RouteLayer</strong>, which will return the appropriate route based on the semantic meaning of the query.</p>
+
+    <pre><code>
+// Example 1: Chitchat query
+string c_target = "how are you doing?";
+var c_result = routeLayer.GetRoute(c_target, routes);
+Console.WriteLine(c_result); // Output: chitchat
+
+// Example 2: Politics query
+string p_target = "I think the president is doing a great job";
+var p_result = routeLayer.GetRoute(p_target, routes);
+Console.WriteLine(p_result); // Output: politics
+    </code></pre>
+
+    <h4>4. Running the Application:</h4>
+    <p>Run the application using the following command:</p>
+
+    <pre><code>dotnet run</code></pre>
+
+    <h3>Expected Output:</h3>
+    <pre><code>chitchat
+politics</code></pre>
+
+    <h2>Contributing</h2>
+    <p>I welcome contributions! If you'd like to help improve this project or add new features, follow these steps:</p>
+
+    <ol>
+        <li>Fork the repo.</li>
+        <li>Create a new branch (<code>git checkout -b feature/your-feature</code>).</li>
+        <li>Commit your changes (<code>git commit -am 'Add new feature'</code>).</li>
+        <li>Push to the branch (<code>git push origin feature/your-feature</code>).</li>
+        <li>Open a pull request.</li>
+    </ol>
+
+    <h2>Acknowledgements</h2>
+    <ul>
+        <li>The original concept was inspired by <a href="https://github.com/aurelio-labs/semantic-router">Aurelio Labs' Semantic Router (Python)</a>.</li>
+        <li>Thanks to the open-source community for supporting the development of intelligent routing solutions.</li>
+    </ul>
+</body>
+</html>
