@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PX6wrXrG8CM=",
+  "dgSpecHash": "Vb/z+8PbyeA=",
   "success": true,
-  "projectFilePath": "D:\\git\\SemanticRouter\\SemanticRouter.csproj",
+  "projectFilePath": "D:\\git\\Semantic-Router-C-Sharp\\SemanticRouter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ridwan\\.nuget\\packages\\fastberttokenizer\\0.4.67\\fastberttokenizer.0.4.67.nupkg.sha512",
     "C:\\Users\\Ridwan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

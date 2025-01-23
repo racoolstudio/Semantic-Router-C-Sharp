@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SemanticRouter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9c4b54793a12ab656a654836917e2657f6bc640")]
 [assembly: System.Reflection.AssemblyProductAttribute("SemanticRouter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SemanticRouter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

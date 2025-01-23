@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\SemanticRouter\\SemanticRouter.csproj": {}
+    "D:\\git\\Semantic-Router-C-Sharp\\SemanticRouter.csproj": {}
   },
   "projects": {
-    "D:\\git\\SemanticRouter\\SemanticRouter.csproj": {
+    "D:\\git\\Semantic-Router-C-Sharp\\SemanticRouter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\SemanticRouter\\SemanticRouter.csproj",
+        "projectUniqueName": "D:\\git\\Semantic-Router-C-Sharp\\SemanticRouter.csproj",
         "projectName": "SemanticRouter",
-        "projectPath": "D:\\git\\SemanticRouter\\SemanticRouter.csproj",
+        "projectPath": "D:\\git\\Semantic-Router-C-Sharp\\SemanticRouter.csproj",
         "packagesPath": "C:\\Users\\Ridwan\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\SemanticRouter\\obj\\",
+        "outputPath": "D:\\git\\Semantic-Router-C-Sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ridwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
