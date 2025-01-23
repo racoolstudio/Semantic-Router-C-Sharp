@@ -102,13 +102,14 @@ politics
 ```
 
 ## Contributing
+
 I welcome contributions! If you'd like to help improve this project or add new features, follow these steps:
 
-a. Fork the repo.
-b. Create a new branch (git checkout -b feature/your-feature).
-c. Commit your changes (git commit -am 'Add new feature').
-d. Push to the branch (git push origin feature/your-feature).
-e. Open a pull request.
+1. Fork the repo.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
 
 ## Acknowledgements
 - The original concept was inspired by [Aurelio Labs' Semantic Router (Python)](https://github.com/aurelio-labs/semantic-router).
