@@ -14,7 +14,8 @@ The Semantic Router makes routing decisions based on the **semantic content** of
 - Superfast decision-making for applications involving LLMs and agents.
 - C#-optimized implementation for routing natural language queries.
 - Easily integrates with existing C# systems.
-
+## Repo:
+ (https://github.com/aurelio-labs/semantic-router).
 ## Installation
 
 ### Manual Installation
