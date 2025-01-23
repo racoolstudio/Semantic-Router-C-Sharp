@@ -15,8 +15,7 @@ The Semantic Router makes routing decisions based on the **semantic content** of
 - C#-optimized implementation for routing natural language queries.
 - Easily integrates with existing C# systems.
 ## Repo:
-[ ([https://github.com/aurelio-labs/semantic-router](https://github.com/racoolstudio/Semantic-Router-C-Sharp)).
-](https://github.com/racoolstudio/Semantic-Router-C-Sharp)
+https://github.com/racoolstudio/Semantic-Router-C-Sharp
 ## Installation
 
 ### Manual Installation
