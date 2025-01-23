@@ -91,11 +91,11 @@ Console.WriteLine(p_result); // Output: politics
 4. Running the Application:
 Run the application using the following command:
 
-``bash
+```bash
 dotnet run
 ```
-**Expected Output:**
 
+**Expected Output:**
 ```bash
 chitchat
 politics
