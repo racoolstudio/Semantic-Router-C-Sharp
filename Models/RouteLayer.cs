@@ -28,7 +28,7 @@ namespace SemanticRouter.Models
             // Return a meaningful result
             if (highestMatchingRoute != null)
             {
-                return highestMatchingRoute.Name;  // Assuming each route has a Name property
+                return highestMatchingRoute.Name;  
             }
 
             return "No match found";
