@@ -117,3 +117,8 @@ I welcome contributions! If you'd like to help improve this project or add new f
 - Thanks to the open-source community for supporting the development of intelligent routing solutions.
 
 
+
+## License
+
+MIT, see [LICENSE](LICENSE). This project is a C# port inspired by
+[aurelio-labs/semantic-router](https://github.com/aurelio-labs/semantic-router) (MIT).
